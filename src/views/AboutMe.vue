@@ -2,8 +2,6 @@
     <div id="view-about">
         <v-tabs
             v-model="tabs"
-            style="margin-top: 56px"
-            background-color="transparent"
             color="basil"
             grow
             >
@@ -17,6 +15,7 @@
         <v-tabs-items v-model="tabs">
             <v-tab-item>
                 <v-card
+                style="height: 1200px;"
                 color="basil"
                 flat
                 >

@@ -16,7 +16,11 @@ export default {
 
 <style lang="scss">
 #app {
-  height: 100vh;
+  // height: 100vh;
   font-family: 'Noto Sans TC';
 }
+
+// * {
+//   border: 1px solid #cc9933;
+// }
 </style>

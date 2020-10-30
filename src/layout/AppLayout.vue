@@ -1,8 +1,8 @@
 <template>
-    <div id="app-layout">
+    <div id="app-layput" class="v-application--wrap overflow-hidden">
         <app-bar />
-        <app-page />
-        <app-footer />
+        <app-page/>
+        <app-footer class="d-flex d-sm-none" />
     </div>
 </template>
 <script>
@@ -18,3 +18,12 @@ export default {
     }
 }
 </script>
+<style lang="scss">
+#app-page {
+    padding: 48px 56px 0px !important;
+
+    @media screen and (min-width: 600px) {
+        padding: 48px 0px 0px !important;
+    }
+}
+</style>

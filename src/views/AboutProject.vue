@@ -2,8 +2,6 @@
     <div id="view-about">
         <v-tabs
             v-model="tabs"
-            style="margin-top: 56px"
-            background-color="transparent"
             color="basil"
             grow
             >

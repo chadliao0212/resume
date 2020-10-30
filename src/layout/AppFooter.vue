@@ -1,7 +1,7 @@
 <template>
     <v-bottom-navigation
         id="app-footer"
-        absolute
+        fixed
         hide-on-scroll
         horizontal
         scroll-target="#hide-on-scroll-example"
@@ -9,7 +9,6 @@
         <v-btn
             v-for="(btn, index) in buttons"
             :key="index"
-            color="deep-purple accent-4"
             text
             @click="jumpPage(btn.link)"
         >
@@ -21,6 +20,9 @@
 export default {
     data: () => ({
         buttons: [{
+            text: '首頁',
+            link: '/home-page'
+        }, {
             text: '關於我',
             link: '/about-me'
         }, {

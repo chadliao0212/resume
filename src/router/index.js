@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Layout from '@/layout/AppLayout';
 import AboutMe from '@/views/AboutMe';
 import AboutProject from '@/views/AboutProject';
+import HomePage from '@/views/HomePage';
 
 Vue.use(VueRouter)
 
@@ -12,6 +13,11 @@ Vue.use(VueRouter)
     name: 'Layout',
     component: Layout,
     children: [
+      {
+        path: '/home-page',
+        name: 'Home-Page',
+        component: HomePage
+      },
       {
         path: '/about-me',
         name: 'About-Me',
