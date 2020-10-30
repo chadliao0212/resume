@@ -4,7 +4,6 @@
         fixed
         hide-on-scroll
         horizontal
-        scroll-target="#hide-on-scroll-example"
     >
         <v-btn
             v-for="(btn, index) in buttons"

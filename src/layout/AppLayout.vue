@@ -20,10 +20,10 @@ export default {
 </script>
 <style lang="scss">
 #app-page {
-    padding: 48px 56px 0px !important;
+    padding: 48px 0px 56px 0px !important;
 
     @media screen and (min-width: 600px) {
-        padding: 48px 0px 0px !important;
+        padding: 48px 0px 0px 0px !important;
     }
 }
 </style>
