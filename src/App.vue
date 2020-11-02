@@ -15,11 +15,11 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  // height: 100vh;
-  // font-family: 'Noto Sans TC';
-  // font-family: "Times New Roman", Georgia, serif;
-}
+// #app {
+//   height: 100vh;
+//   font-family: 'Noto Sans TC';
+//   font-family: "Times New Roman", Georgia, serif;
+// }
 
 // * {
 //   border: 1px solid #cc9933;
