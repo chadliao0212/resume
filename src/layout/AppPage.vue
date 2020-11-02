@@ -1,5 +1,7 @@
 <template>
     <v-main id="app-page">
-        <router-view />
+        <v-container fluid style="max-width: 960px">
+            <router-view />
+        </v-container>
     </v-main>
 </template>

@@ -2,6 +2,49 @@
     "name": "廖彥宇",
     "englishName": "Chad",
     "birthday": "1992-now",
-    "description": "由工業設計，轉換為UI/UX設計的設計師，5年的工作經驗，認為產品和服務，皆是由需求而來，相信透過設計思考與方法，創造價値和改變生活 </br></br> 希望將設計思維帶進生活，有目的的實現目標，帶來更好的生活體驗</br></br> 工作上擅長團隊合作與溝通，透過設計方法，和團隊交流協作達到共識，同時學習帶領設計工作方，以及產品時程的分配與把控</br></br> 工作外，練習side project、參加讀書會和演講會，從中學習新事物與獲得靈感；以運動和投資，建立自律的心態，希望讓生活不僅規律，也不失彈性與有趣的新體驗"
-    
+    "description": "由工業設計，轉換為UI/UX設計的設計師，5年的工作經驗，認為產品和服務，皆是由需求而來，相信透過設計思考與方法，創造價値和改變生活 </br></br> 希望將設計思維帶進生活，有目的的實現目標，帶來更好的生活體驗</br></br> 工作上擅長團隊合作與溝通，透過設計方法，和團隊交流協作達到共識，同時學習帶領設計工作方，以及產品時程的分配與把控</br></br> 工作外，練習side project、參加讀書會和演講會，從中學習新事物與獲得靈感；以運動和投資，建立自律的心態，希望讓生活不僅規律，也不失彈性與有趣的新體驗",
+    "experience": {
+        "title": "經驗",
+        "payload": [{
+            "company": "百星科技",
+            "duration": "2018.12-now",
+            "jobTitle": "UI/UX 設計師",
+            "color": "cyan",
+            "projects": [{
+                "title": "ERP按需生產系統",
+                "content": "為公司列印業務，整合線下工廠設備與生產流程，將流程資訊轉移至線上，收集生產數據，透過分析，改善流程問題與提高生產效率"
+            }, {
+                "title": "列印驅動服務",
+                "content": "整合列印設備，透過線上整合資料傳輸與渲染，直接驅動線下列印設備生產"
+            }]
+        }]
+    },
+    "skills": {
+        "title": "工具",
+        "payload": [{
+            "name": "UI / UX",
+            "items": ["Figma", "Sketch"]
+        }, {
+            "name": "2D",
+            "items": ["PS ", "AI"]
+        }, {
+            "name": "協作工具",
+            "items": ["Miro", "Invition", "Versions"]
+        }, {
+            "name": "前端",
+            "items": ["Html", "Css"]
+        }]
+    },
+    "connection": {
+        "title": "聯絡",
+        "payload": [{
+            "name": "email",
+            "content": "exj212@gmail.com",
+            "icon": "mdi-email"
+        }, {
+            "name": "linkin",
+            "content": "chadliao",
+            "icon": "mdi-linkedin"
+        }]
+    }
 }

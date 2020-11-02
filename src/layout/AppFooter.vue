@@ -2,7 +2,6 @@
     <v-bottom-navigation
         id="app-footer"
         fixed
-        hide-on-scroll
         horizontal
     >
         <v-btn
