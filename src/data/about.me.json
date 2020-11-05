@@ -1,7 +1,6 @@
 {
     "name": "廖彥宇",
     "englishName": "Chad",
-    "birthday": "1992-now",
     "description": "由工業設計，轉換為UI/UX設計的設計師，5年的工作經驗，認為產品和服務，皆是由需求而來，相信透過設計思考與方法，創造價値和改變生活 </br></br> 希望將設計思維帶進生活，有目的的實現目標，帶來更好的生活體驗</br></br> 工作上擅長團隊合作與溝通，透過設計方法，和團隊交流協作達到共識，同時學習帶領設計工作方，以及產品時程的分配與把控</br></br> 工作外，練習side project、參加讀書會和演講會，從中學習新事物與獲得靈感；以運動和投資，建立自律的心態，希望讓生活不僅規律，也不失彈性與有趣的新體驗",
     "experience": {
         "title": "經驗",
@@ -40,11 +39,11 @@
         "payload": [{
             "name": "email",
             "content": "exj212@gmail.com",
-            "icon": "mdi-email"
+            "icon": ""
         }, {
             "name": "linkin",
             "content": "chadliao",
-            "icon": "mdi-linkedin"
+            "icon": ""
         }]
     }
 }

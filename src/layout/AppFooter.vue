@@ -3,6 +3,7 @@
         id="app-footer"
         fixed
         horizontal
+        dark
     >
         <v-btn
             v-for="(btn, index) in buttons"
@@ -18,9 +19,6 @@
 export default {
     data: () => ({
         buttons: [{
-            text: '首頁',
-            link: '/home-page'
-        }, {
             text: '關於我',
             link: '/about-me'
         }, {

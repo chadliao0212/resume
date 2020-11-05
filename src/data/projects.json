@@ -1,6 +1,19 @@
 {
     "data": [{
+        "id": "KFC",
         "title": "肯德基點餐網站<br/>流程再設計",
+        "categories": [{
+            "name": "UI / UX",
+            "color": "#14BAD0"
+        }, {
+            "name": "產品服務分析",
+            "color": "#67CA4E"
+        }],
+        "content": "肯德基點餐網站流程再設計肯德基點餐網站流程再設計<br/>肯德基點餐網站流程再設計肯德基點餐網站流程再設計",
+        "image": "KFC.png"
+    }, {
+        "id": "MM",
+        "title": "麥當勞",
         "categories": [{
             "name": "UI / UX",
             "color": "#14BAD0"

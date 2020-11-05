@@ -1,31 +1,34 @@
 <template>
     <v-app-bar
         id="app-bar"
-        dark
+        color="#222222"
         fixed
+        dark
         dense
+        flat
     >
-        <v-toolbar-title class="font-weight-black">CHAD LIAO</v-toolbar-title>
-        <v-spacer></v-spacer>
+        <div class="app-bar-content">
+            <router-link to="/">
+                <v-toolbar-title class="font-weight-black">CHAD LIAO</v-toolbar-title>
+            </router-link>
+            <v-spacer></v-spacer>
 
-        <v-btn
-            class="d-none d-sm-flex"
-            v-for="(btn, index) in buttons"
-            :key="index"
-            text
-            @click="jumpPage(btn.link)"
-        >
-            <span>{{btn.text}}</span>
-        </v-btn>
+            <v-btn
+                class="d-none d-sm-flex"
+                v-for="(btn, index) in buttons"
+                :key="index"
+                text
+                @click="jumpPage(btn.link)"
+            >
+                <span>{{btn.text}}</span>
+            </v-btn>
+        </div>
     </v-app-bar>
 </template>
 <script>
 export default {
     data: () => ({
         buttons: [{
-            text: '首頁',
-            link: '/home-page'
-        }, {
             text: '關於我',
             link: '/about-me'
         }, {
@@ -40,3 +43,15 @@ export default {
     }
 }
 </script>
+<style lang="scss">
+#app-bar {
+    .v-toolbar__content {
+        justify-content: center;
+    }
+    .app-bar-content {
+        display: flex;
+        width: 100%;
+        max-width: 960px;
+    }
+}
+</style>

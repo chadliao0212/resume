@@ -1,17 +1,17 @@
 <template>
-    <div id="view-about">
-        <v-card
-        color="basil"
-        flat
-        >
-            <v-card-text>123123</v-card-text>
-        </v-card>
+    <div>
+        <project-card v-for="(project, index) in projects" :project="project" :key="index"></project-card>
     </div>
 </template>
 <script>
+import { data } from '@/data/projects.json';
+import ProjectCard from '@/components/ProjectCard';
 export default {
     data: () => ({
-        tabs: null
-    })
+        projects: data,
+    }),
+    components: {
+        "project-card": ProjectCard
+    }
 }
 </script>

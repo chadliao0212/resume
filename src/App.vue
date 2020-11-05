@@ -15,7 +15,12 @@ export default {
 </script>
 
 <style lang="scss">
-// #app {
+#app {
+  a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 2px;
+  }
 //   height: 100vh;
 //   font-family: 'Noto Sans TC';
 //   font-family: "Times New Roman", Georgia, serif;
@@ -23,5 +28,5 @@ export default {
 
 // * {
 //   border: 1px solid #cc9933;
-// }
+}
 </style>
