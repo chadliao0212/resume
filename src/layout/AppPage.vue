@@ -1,6 +1,6 @@
 <template>
     <v-main id="app-page">
-        <v-container fluid style="max-width: 960px">
+        <v-container fluid style="max-width: 960px" class="pa-0">
             <router-view />
         </v-container>
     </v-main>
