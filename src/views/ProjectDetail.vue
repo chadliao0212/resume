@@ -1,12 +1,12 @@
 <template>
     <v-card v-if="projectDetail" flat tile>
-        <v-img height="300px" v-if="projectDetail.backgroundImage" :src="require(`@/assets/${projectDetail.backgroundImage}`)">
-            <v-card-title class="mb-8">{{projectDetail.title}}</v-card-title>
-            <v-card-subtitle class="pb-0">目標</v-card-subtitle>
-            <v-card-text>{{projectDetail.target}}</v-card-text>
+        <v-img height="360px" v-if="projectDetail.backgroundImage" :src="require(`@/assets/${projectDetail.backgroundImage}`)">
+            <v-card-title class="pa-0 mb-8">{{projectDetail.title}}</v-card-title>
+            <v-card-subtitle class="pa-0  mt-0">目標</v-card-subtitle>
+            <v-card-text class="pa-0 mb-8">{{projectDetail.target}}</v-card-text>
 
-            <v-card-subtitle class="pb-0">專案連結</v-card-subtitle>
-            <v-card-text>
+            <v-card-subtitle class="pa-0">專案連結</v-card-subtitle>
+            <v-card-text class="pa-0">
                 <a :href="projectDetail.projectLink['href']" target='_blank'>{{projectDetail.projectLink['title']}}</a>
              </v-card-text>
         </v-img>
@@ -46,6 +46,12 @@ export default {
         .v-card__text {
             color: #ffffff;
             font-weight: 500;
+        }
+
+        padding: 96px 48px 0px 48px;
+
+        @media screen and (max-width: 600px) {
+            padding: 96px 24px 0px 24px;
         }
     }
 }

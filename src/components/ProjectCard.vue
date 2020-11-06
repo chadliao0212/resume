@@ -41,8 +41,8 @@ export default {
 </script>
 <style lang="scss" scoped>
 .v-card {
-    margin-top: 36px;
-
+    margin-top: 32px;
+    padding: 0px 16px;
     .container {
         padding: 88px 120px 0px 120px;
         color: #ffffff;
@@ -54,7 +54,7 @@ export default {
         padding: 0px;
     }
     @media screen and (max-width: 600px) {
-        padding: 15px;
+        padding: 16px;
         margin-top: 0;
 
         .container {

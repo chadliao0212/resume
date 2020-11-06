@@ -4,7 +4,7 @@
             <div class="d-flex d-sm-none">設計，<br>讓世界有趣</div>
             <div class="d-none d-sm-flex">設計，讓世界有趣</div>
         </v-card>
-        <v-row no-gutters>
+        <v-row no-gutters class="pt-8">
             <v-col cols="12" sm="6" md="6">
                 <v-card flat tile>
                     <v-card-text>
