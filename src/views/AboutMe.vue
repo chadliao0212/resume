@@ -10,11 +10,11 @@
                     <v-card-text>
                     <v-img
                         height="300"
-                        src="@/assets/about.me.jpeg"
+                        :src="require(`@/assets/${aboutMe.image}`)"
                     ></v-img>
                     </v-card-text>
                     <v-card-text>
-                        <div>{{aboutMe.name}} {{aboutMe.englishName}}</div>
+                        <div>{{aboutMe.name}} {{aboutMe.eName}}</div>
                         <div v-html="aboutMe.description"></div>
                     </v-card-text>
                 </v-card>
