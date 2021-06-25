@@ -2,6 +2,7 @@ module.exports = {
   "transpileDependencies": [
     "vuetify"
   ],
+
   // publicPath: process.env.NODE_ENV === 'production'
   //   ? '/resume/'
   //   : '/',
@@ -10,6 +11,9 @@ module.exports = {
       maxEntrypointSize: 512000,
       maxAssetSize: 512000
     }
-  }
-  
+  },
+
+  transpileDependencies: [
+    'vuetify'
+  ]
 }

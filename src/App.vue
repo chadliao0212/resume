@@ -1,32 +1,40 @@
 <template>
-  <v-app id="app">
-    <router-view />
+  <v-app>
+    <header-bar />
+    <router-view class="mx-auto" style="max-width: 1024px" />
   </v-app>
 </template>
 
 <script>
-
-export default {
-  name: 'App',
-  data: () => ({
-    //
-  }),
-};
+  import HeaderBar from "@/components/HeaderBar";
+  export default {
+    name: "App",
+    data: () => ({
+      //
+    }),
+    components: {
+      "header-bar": HeaderBar,
+    },
+  };
 </script>
 
 <style lang="scss">
-#app {
-  a {
-    text-decoration: none;
-    color: #FFFFFF;
-    margin-top: 2px;
+  * {
+    // border: 1px solid #8ddfee !important;
+    font-family: Noto Sans TC;
   }
-//   height: 100vh;
-//   font-family: 'Noto Sans TC';
-//   font-family: "Times New Roman", Georgia, serif;
-// }
+  #app {
+    a {
+      text-decoration: none;
+      color: black;
+      margin-top: 2px;
+    }
+    //   height: 100vh;
+    //   font-family: 'Noto Sans TC';
+    //   font-family: "Times New Roman", Georgia, serif;
+    // }
 
-// * {
-//   border: 1px solid #cc9933;
-}
+    // * {
+    //   border: 1px solid #cc9933;
+  }
 </style>

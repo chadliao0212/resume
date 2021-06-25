@@ -1,12 +1,18 @@
-import Vue from 'vue'
-import App from './App.vue'
-import vuetify from './plugins/vuetify';
-import router from './router';
+import Vue from "vue";
 
-Vue.config.productionTip = false
+import App from "./App.vue";
+import router from "./router";
+import i18n from './i18n';
+import "./assets/tailwind.css";
+import "./assets/base.scss";
+import vuetify from './plugins/vuetify'
+
+Vue.config.productionTip = false;
+
 
 new Vue({
-  vuetify,
   router,
-  render: h => h(App)
-}).$mount('#app')
+  i18n,
+  vuetify,
+  render: (h) => h(App)
+}).$mount("#app");

@@ -1,0 +1,132 @@
+.part {
+  margin-bottom: 128px;
+  .part__title {
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+  .part__subtitle {
+    font-weight: 400;
+    font-size: 24px;
+  }
+  .part__content {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .ul__title {
+    font-weight: 400;
+  }
+
+  .table {
+    display: flex;
+    flex-direction: column;
+    .table__title {
+      font-weight: 400;
+      font-size: 24px;
+      margin-bottom: 24px;
+    }
+
+    .row {
+      display: flex;
+
+      .col {
+        flex: 1;
+        font-size: 18px;
+        &:nth-child(odd) {
+          border-right: 1px solid rgba(0, 0, 0, 0.25);
+        }
+        &:nth-child(even) {
+          padding-left: 56px;
+        }
+        .col__title {
+          font-weight: 400;
+        }
+        .col__content {
+          padding: 16px 0;
+          font-weight: 400;
+
+          div {
+            line-height: 32px;
+          }
+        }
+      }
+    }
+  }
+
+  .color {
+    &__blue {
+      color: #6999d1;
+    }
+    &__red {
+      color: #e87778;
+    }
+  }
+}
+.ordering-process {
+  border-right: 1px solid #d12c34;
+  border-left: 1px solid #d12c34;
+  padding: 0 80px;
+}
+.ordering-process-left {
+  left: -86px;
+  color: #d12c34;
+  > div {
+    display: flex;
+    align-items: center;
+  }
+  svg {
+    width: 12px;
+    height: 12px;
+    fill: #d12c34;
+    margin-right: 16px;
+  }
+  &__text {
+    max-width: 100px;
+  }
+}
+.ordering-process-right {
+  right: -86px;
+  color: #d12c34;
+  > div {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  svg {
+    width: 12px;
+    height: 12px;
+    fill: #d12c34;
+    margin-left: 16px;
+  }
+  &__text {
+    max-width: 100px;
+    text-align: right;
+  }
+}
+
+.ordering-process-top {
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.ordering-process-content {
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 300px;
+    ul {
+      font-size: 18px;
+      font-weight: 300;
+      margin-left: -16px;
+    }
+}
+
+ul {
+  list-style: disc;
+  padding-left: 40px;
+
+  &.decimal {
+    list-style: decimal;
+  }
+}
