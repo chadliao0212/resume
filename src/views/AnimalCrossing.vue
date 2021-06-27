@@ -195,7 +195,10 @@
           v-html="$t('AnimalCrossing.otherDesign.title')"
         />
         <v-img src="@/assets/AnimalCrossing/images/OtherDesign.png"></v-img>
-        <div class="pa-10" style="margin-bottom: 88px" v-html="$t('AnimalCrossing.otherDesign.content')" />
+        <div
+          style="margin-bottom: 128px; margin-top: 44px"
+          v-html="$t('AnimalCrossing.otherDesign.content')"
+        />
         <div
           v-for="(item, index) of $t('AnimalCrossing.otherDesign.items')"
           :key="index"
