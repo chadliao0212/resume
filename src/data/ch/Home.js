@@ -3,7 +3,7 @@ export default {
   projects: [
     {
       title: `動物森友會<br/>遊戲交易平台`,
-      image: "Home-1.png",
+      image: "Home-1.jpg",
       buttonText: "進入專案",
       link: "/animal-crossing",
     },

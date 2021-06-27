@@ -3,7 +3,7 @@ export default {
   projects: [
     {
       title: `Animal Crossing<br/>Item Trading Platform`,
-      image: "Home-1.png",
+      image: "Home-1.jpg",
       buttonText: "More",
       link: "/animal-crossing",
     },

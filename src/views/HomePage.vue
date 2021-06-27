@@ -1,34 +1,37 @@
 <template>
   <div>
-    <div
-      class="home-title h-screen flex items-center relative"
-      v-html="$t(`Home.title`)"
-      style="font-size: 48px;font-weight: 500"
-    >
-      <!-- <button class="absolute bottom-8" @click="handleScroll">button</button> -->
-    </div>
-    <project-card
-      v-for="(project, index) of $t(`Home.projects`)"
-      :key="index"
-      :reverse="index % 2 == 0 ? true : false"
-    >
-      <template slot="title">
-        <div
-          class="mb-4"
-          v-html="project.title"
-          style="font-size: 24px; font-weight: 500"
-        />
-        <v-btn
-          depressed
-          tile
-          color="#1A1A1A"
-          class="white--text"
-          v-html="project.buttonText"
-          @click="$router.push(project.link)"
+    <v-container style="width: 1024px">
+      <div
+        class="home-title h-screen flex items-center relative"
+        v-html="$t(`Home.title`)"
+        style="font-size: 48px;font-weight: 500"
+      >
+        <!-- <button class="absolute bottom-8" @click="handleScroll">button</button> -->
+      </div>
 
-        ></v-btn>
-      </template>
-    </project-card>
+      <project-card
+        v-for="(project, index) of $t(`Home.projects`)"
+        :key="index"
+        :reverse="index % 2 == 0 ? true : false"
+        :image="project.image"
+      >
+        <template slot="title">
+          <div
+            class="mb-4"
+            v-html="project.title"
+            style="font-size: 24px; font-weight: 500"
+          />
+          <v-btn
+            depressed
+            tile
+            color="#1A1A1A"
+            class="white--text"
+            v-html="project.buttonText"
+            @click="$router.push(project.link)"
+          ></v-btn>
+        </template>
+      </project-card>
+    </v-container>
   </div>
 </template>
 <script>
