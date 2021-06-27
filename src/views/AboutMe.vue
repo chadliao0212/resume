@@ -61,7 +61,7 @@
               ></span>
             </template>
             <div
-              class="text-lg"
+              class="text-lg mb-2"
               style="color:#99908D"
               v-html="part.company"
             ></div>
