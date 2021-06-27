@@ -30,11 +30,17 @@
       ></div>
       <div class="part__content">
         <div v-html="$t('AnimalCrossing.rolesAndTasks.content')"></div>
-        <div
-          v-for="(item, index) of $t('AnimalCrossing.rolesAndTasks.items')"
-          v-html="item"
-          :key="index"
-        />
+        <div v-html="$t('AnimalCrossing.rolesAndTasks.task.title')"></div>
+
+        <ul>
+          <li
+            v-for="(item, index) of $t(
+              'AnimalCrossing.rolesAndTasks.task.items'
+            )"
+            v-html="item"
+            :key="index"
+          />
+        </ul>
       </div>
     </div>
 
@@ -152,7 +158,7 @@
     </div>
 
     <div class="part">
-      <div class="part__title" v-html="$t('AnimalCrossing.mainDesign.title')" />
+      <div class="part__title mb-16" v-html="$t('AnimalCrossing.mainDesign.title')" />
       <div
         v-for="(item, index) of $t('AnimalCrossing.mainDesign.items')"
         :key="index"
@@ -160,12 +166,12 @@
       >
         <div
           class="mb-2"
-          style="font-weight:400;font-size: 18px;"
+          style="font-weight:500;font-size: 18px;"
           v-html="item.title"
         />
         <div
           class="mb-10"
-          style="font-weight:300;font-size: 18px;"
+          style="font-weight:400;font-size: 18px;"
           v-html="item.content"
         />
         <video autoplay muted loop="true">
@@ -191,12 +197,12 @@
       >
         <div
           class="mb-2"
-          style="font-weight:400;font-size: 18px;"
+          style="font-weight:500;font-size: 18px;"
           v-html="item.title"
         />
         <div
           class="mb-10"
-          style="font-weight:300;font-size: 18px;"
+          style="font-weight:400;font-size: 18px;"
           v-html="item.content"
         />
         <video controls>
@@ -217,10 +223,10 @@
       >
         <div
           class="mb-2"
-          style="font-weight:400;font-size: 24px;"
+          style="font-weight:500;font-size: 24px;"
           v-html="item.title"
         />
-        <div style="font-weight:300;font-size: 18px;" v-html="item.content" />
+        <div style="font-weight:400;font-size: 18px;" v-html="item.content" />
         <ul :key="index">
           <li
             v-for="(subitem, subitemIndex) of item.items"

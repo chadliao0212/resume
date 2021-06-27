@@ -8,14 +8,24 @@ export default {
     title: "Roles＆Tasks",
     content:
       "We have two software engineers and one UI/UX designer (me), and planning to finish the project in 3 months with the time after work. <br/> We had the sprint meeting every two weeks online.",
-    items: [
-      "My Tasks:",
-      "Designed UI/UX",
-      "Led the sprint planning",
-      "Planned user research",
-      "Created information architecture",
-      "Organized the meetings",
-    ],
+    task: {
+      title: "My Tasks:",
+      items: [
+        "Designed UI/UX",
+        "Led the sprint planning",
+        "Planned user research",
+        "Created information architecture",
+        "Organized the meetings",
+      ],
+    },
+    // items: [
+    //   "My Tasks:",
+    //   "Designed UI/UX",
+    //   "Led the sprint planning",
+    //   "Planned user research",
+    //   "Created information architecture",
+    //   "Organized the meetings",
+    // ],
   },
   overview: {
     title: "Overview",

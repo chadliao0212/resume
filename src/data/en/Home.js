@@ -3,13 +3,13 @@ export default {
   projects: [
     {
       title: `Animal Crossing<br/>Item Trading Platform`,
-      image: "",
+      image: "Home-1.png",
       buttonText: "More",
       link: "/animal-crossing",
     },
     {
       title: `KFC Online Ordering<br/>UI Redesign `,
-      image: "",
+      image: "Home-2.png",
       buttonText: "More",
       link: "/kfc",
     },

@@ -1,29 +1,29 @@
 .part {
   margin-bottom: 128px;
   .part__title {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 36px;
     margin-bottom: 16px;
   }
   .part__subtitle {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 24px;
   }
   .part__content {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 18px;
     line-height: 32px;
   }
 
   .ul__title {
-    font-weight: 400;
+    font-weight: 500;
   }
 
   .table {
     display: flex;
     flex-direction: column;
     .table__title {
-      font-weight: 400;
+      font-weight: 500;
       font-size: 24px;
       margin-bottom: 24px;
     }
@@ -41,11 +41,11 @@
           padding-left: 56px;
         }
         .col__title {
-          font-weight: 400;
+          font-weight: 500;
         }
         .col__content {
           padding: 16px 0;
-          font-weight: 400;
+          font-weight: 500;
 
           div {
             line-height: 32px;
@@ -107,26 +107,26 @@
 }
 
 .ordering-process-top {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
 }
 
 .ordering-process-content {
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     max-width: 300px;
     ul {
       font-size: 18px;
-      font-weight: 300;
+      font-weight: 400;
       margin-left: -16px;
     }
 }
 
 ul {
-  list-style: disc;
+  list-style: disc!important;
   padding-left: 40px;
 
   &.decimal {
-    list-style: decimal;
+    list-style: decimal!important;
   }
 }

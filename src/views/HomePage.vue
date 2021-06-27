@@ -16,7 +16,7 @@
         <div
           class="mb-4"
           v-html="project.title"
-          style="font-size: 24px; font-weight: 400"
+          style="font-size: 24px; font-weight: 500"
         />
         <v-btn
           depressed

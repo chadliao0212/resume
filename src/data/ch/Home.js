@@ -3,13 +3,13 @@ export default {
   projects: [
     {
       title: `動物森友會<br/>遊戲交易平台`,
-      image: "",
+      image: "Home-1.png",
       buttonText: "進入專案",
       link: "/animal-crossing",
     },
     {
       title: `肯德基線上訂餐<br/>UI Redesign`,
-      image: "",
+      image: "Home-2.png",
       buttonText: "進入專案",
       link: "/kfc",
     },

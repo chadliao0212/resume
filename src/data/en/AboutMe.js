@@ -5,6 +5,7 @@ export default {
     position: "UX/UI Designer",
     education: "Tunghai University Industrial Design",
     email: "exj212@gmail.com",
+    image: "AboutMe.jpeg",
   },
   experience: {
     title: "EXPERIENCE",
@@ -12,51 +13,43 @@ export default {
       {
         title: "UX/UI Designer",
         time: "2018/12 - Present",
-        contents: [
-          {
-            title: "Doc Intelligent Holdings Limited",
-            items: [
-              "Explored demands",
-              "Planned user story",
-              "Designed wireframe / mockup / prototype",
-              "Cooperated with software engineers",
-              "Tested product usability with QA",
-              "Generated design guideline",
-            ],
-          },
-          {
-            title: "Other",
-            items: [
-              "Participated in CIS design",
-              "Assisted in marketing strategy",
-              "Assisted in corporate image",
-            ],
-          },
+        company: "Doc Intelligent Holdings Limited",
+        items: [
+          "Explored demands",
+          "Planned user story",
+          "Designed wireframe / mockup / prototype",
+          "Cooperated with software engineers",
+          "Tested product usability with QA",
+          "Generated design guideline",
         ],
+        others: {
+          title: "Other",
+          items: [
+            "Participated in CIS design",
+            "Assisted in marketing strategy",
+            "Assisted in corporate image",
+          ],
+        },
       },
       {
         title: "Product Designer",
         time: "2016/04 - 2018/6",
-        contents: [
-          {
-            title: "YANG XIN Advanced Manufacture",
-            items: [
-              "Designed yacht moldss",
-              "Discussed demands with clients",
-              "Managed project scope and schedule",
-              "Cooperated with construction team",
-              "Supervised construction and handle error onsite",
-              "Generated design guideline",
-            ],
-          },
-          {
-            title: "Other",
-            items: [
-              "Designed non-intrusive medical product",
-              "Operated robot arm and CNC machine to process products",
-            ],
-          },
+        company: "YANG XIN Advanced Manufacture",
+        items: [
+          "Designed yacht moldss",
+          "Discussed demands with clients",
+          "Managed project scope and schedule",
+          "Cooperated with construction team",
+          "Supervised construction and handle error onsite",
+          "Generated design guideline",
         ],
+        others: {
+          title: "Other",
+          items: [
+            "Designed non-intrusive medical product",
+            "Operated robot arm and CNC machine to process products",
+          ],
+        },
       },
     ],
   },
