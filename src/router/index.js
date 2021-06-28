@@ -13,21 +13,33 @@ const routes = [
     path: "/",
     name: "Home-Page",
     component: HomePage,
+    meta: {
+      title: "Home",
+    },
   },
   {
     path: "/about-me",
     name: "About-Me",
     component: AboutMe,
+    meta: {
+      title: "About Me",
+    },
   },
   {
     path: "/animal-crossing",
     name: "AnimalCrossing",
     component: AnimalCrossing,
+    meta: {
+      title: "Animal Crossing",
+    },
   },
   {
     path: "/kfc",
     name: "KFC",
     component: KFC,
+    meta: {
+      title: "KFC",
+    },
   },
 ];
 
@@ -39,5 +51,10 @@ const router = new VueRouter({
     return { x: 0, y: 0 };
   },
 });
+
+router.beforeEach((to, from, next) => {
+  document.title = `Chad Liao | ${to.meta.title}`
+  next();
+})
 
 export default router;
