@@ -93,9 +93,15 @@
                 type="video/mp4"
               />
             </video>
-            <div style="flex:1; max-width: 336px">
-              <div class="part__card__title mb-4">{{ data.title }}</div>
-              <div v-html="data.content"></div>
+            <div style="flex:1;" class="d-flex">
+              <div style="flex:1;"></div>
+              <div style="max-width: 336px;flex:4">
+                <div class="part__card__title mb-4">
+                  {{ data.title }}
+                </div>
+                <div v-html="data.content"></div>
+              </div>
+              <div style="flex:1;"></div>
             </div>
           </div>
         </div>
