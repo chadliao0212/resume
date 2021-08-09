@@ -4,6 +4,8 @@ import VueRouter from "vue-router";
 import AboutMe from "@/views/AboutMe";
 import HomePage from "@/views/HomePage";
 import AnimalCrossing from "@/views/AnimalCrossing";
+import PersonalWeb from "@/views/PersonalWeb";
+
 import KFC from "@/views/KFC";
 
 Vue.use(VueRouter);
@@ -31,6 +33,14 @@ const routes = [
     component: AnimalCrossing,
     meta: {
       title: "Animal Crossing",
+    },
+  },
+  {
+    path: "/personal-web",
+    name: "PersonalWeb",
+    component: PersonalWeb,
+    meta: {
+      title: "Personal Web",
     },
   },
   {
